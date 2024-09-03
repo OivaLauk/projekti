@@ -1,0 +1,64 @@
+body {
+    background-color: midnightblue;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+#div1 {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    background-color: pink;
+    text-align: center;
+    color: purple;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#div2 {
+    background-color: pink;
+    color: purple;
+    height: 330px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#LM {
+    margin-left: 25px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: black;
+    margin-left: 25px;
+
+}
+
+input {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#button {
+    margin-top: 30px;
+    height: 30px;
+    background-color: dimgray;
+    color: white;
+}
