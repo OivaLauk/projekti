@@ -1,5 +1,5 @@
 body {
-    background-color: midnightblue;
+    background-color: rgb(27, 27, 110);
     margin: 0px;
     margin-top: 0px;
 }
@@ -19,10 +19,20 @@ body {
     flex-wrap: wrap;
 }
 
-
 #div2 {
     background-color: pink;
     color: purple;
+    height: 330px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#div3 {
     height: 330px;
     width: 80%;
     margin-left: auto;
@@ -37,7 +47,7 @@ body {
     margin-left: 25px;
 }
 
-h1 {
+h1, h2 {
     font-family: sans-serif;
 }
 
@@ -58,7 +68,34 @@ input {
 
 #button {
     margin-top: 30px;
-    height: 30px;
-    background-color: dimgray;
+    height: 35px;
+    background-color: rgb(30, 28, 28);
     color: white;
+}
+
+h2 {
+    margin-left: 180px;
+    color: purple;
+}
+
+#checkboxDiv {
+    height: 30px;
+    width: 60%;
+    background-color: lightblue;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin: 6px;
+    border-radius: 2px;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 5px !important;
+    margin-top: 5px;
+}
+
+label {
+    margin-left: 10px;
 }

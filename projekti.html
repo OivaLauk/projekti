@@ -14,12 +14,33 @@
 
         </div>
         <div class="flex-container" id="div2">
+            <form id="info">
             <h1 id="LM">Lisää merkintä</h1>
             <h4>Nimi:</h4>
-            <input id="nimi" type="text">
+            <input id="person" type="text">
             <h4>Tieto:</h4>
-            <input id="tieto" type="text">
-            <input id="button" type="button" value="Lisää tieto">
+            <input id="data" type="text">
+            <input onclick="infoCheck()" id="button" type="button" value="Lisää tieto">
+            </form>
+        </div>
+        <div id="div3">
+            <h2>Suoritettavat:</h2>
+            
+            <div id="checkboxDiv">
+                <form id="data">  
+                <input id="checkbox"type="checkbox"><label>HTML</label>
+                </div>
+                <div id="checkboxDiv">
+                <input id="checkbox" type="checkbox"><label>CSS</label>
+                </div>
+                <div id="checkboxDiv">
+                <input id="checkbox" type="checkbox"><label>JavaScript</label>
+                </div>
+                <div id="checkboxDiv">
+                <input id="checkbox" type="checkbox"><label>CI/CD</label>
+                </form>  
+                </div>
+                <input onclick="dataCheck()" id="button" type="button" value="Merkkaa">
         </div>
     </body>
 </html>
